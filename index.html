@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>personal portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/5faf628113.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+       <div class="container">
+        <nav>
+            <h1 class="one"><span class="two">My </span>Portfolio.</h1>
+            <ul id="sidemenu">
+                <li><a href="#header">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#service">Services</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+            </ul>
+            <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+        </nav>
+        <div class="header-text">
+            <p>Frontend Web Developer</p>
+            <h1>HI, I'm <span>Shoaib</span><br>Khan</h1>
+        </div>
+       </div>  
+    </div>
+    <div id="about">
+         <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/user.jpeg" alt="">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title" id="[about]">About Me</h1>
+                    <p>Hello, I'm Shoaib Khan, a dedicated frontend web developer with a passion for crafting visually appealing and user-friendly websites.
+                        I specialize in HTML, CSS, and JavaScript, focusing on creating responsive designs that offer seamless user experiences across all devices. I'm always open to new opportunities and challenges that help me grow as a developer. Let's create something amazing together.</p>
+                     <div class="tab-titles">
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <h2>Skills</h2>
+                        <ul>
+                            <li><span>Frontend Developer</span><br>Frontend Web Developer</li>
+                            <li><span>Web Development</span><br>Web App Development</li>
+                            <li><span>App Development</span><br>Building Android/IOS Websites</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <h2>Education</h2>
+                        <ul>
+                            <li><span>2024</span><br>Aziz Jan Trust</li>
+                            <li><span>2022</span><br>Bsc In Computer Science</li>
+                            <li><span>2024</span><br>Msc In Computer Science</li>
+                        </ul>
+                    </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    <!----------services---------->
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title" id="service">My Services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Web Development</h2>
+                    <p>I am Frontend Web Developer From Smit Peshawar</p>
+                    <a>learn more</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-crop-simple"></i>
+                    <h2>HTML</h2>
+                    <p>I Have Fully Experience In Hyper Text Markup Language</p>
+                    <a>learn more</a>
+                </div>
+                <div>
+                    <i class="fa-brands fa-app-store"></i>
+                    <h2>CSS</h2>
+                    <p>I Have Also Fully Experience In Cascading Style Sheet</p>
+                    <a>learn more</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-------portfolio------->
+    <div id="portfolio">
+       <div class="container">
+        <h1 class="sub-title" id="[portfolio]">Portfolio</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="images/work_1.jpg" alt="">
+                <div class="layer">
+                    <h3>Youtube Channel</h3>
+                    <p>This is My Youtube Channel</p>
+                    <a href="https://www.youtube.com/@IslamicTeach11"><i class="fa-solid fa-up-right-from-square"></i>.</a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/work_2.jpg" alt="">
+                <div class="layer">
+                    <h3>Music App</h3>
+                    <p>This is My Soundcloud Account Where You Can LIsten Islamic Nasheed</p>
+                    <a href="https://on.soundcloud.com/3doJKfpa1H1P7iGW6"><i class="fa-solid fa-up-right-from-square"></i>.</a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/work_3.jpg" alt="">
+                <div class="layer">
+                    <h3>Social Media App</h3>
+                    <p>This is My Personal Instagram Account</p>
+                    <a href="https://www.instagram.com/shoaibikhan.sk"><i class="fa-solid fa-up-right-from-square"></i>.</a>
+                </div>
+            </div>
+        </div>
+        <a href="#contact" class="btn">See More</a>
+       </div>
+    </div>
+    <!-------------contact------------->
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title" id="[contact]">Contact Me</h1>
+                    <p><i class="fa-solid fa-paper-plane"></i> contact@example.com</p>
+                    <p><i class="fa-solid fa-phone"></i> 03188090141</p>
+                    <div class="social-icons">
+                        <a href=""><i class="fa-brands fa-facebook"></i>.</a>
+                        <a href="https://on.soundcloud.com/3doJKfpa1H1P7iGW6"><i class="fa-brands fa-soundcloud"></i>.</a>
+                        <a href="https://www.instagram.com/shoaibikhan.sk"><i class="fa-brands fa-instagram"></i>.</a>
+                        <a href="https://www.linkedin.com/in/shoaib-khan-4b8902252"><i class="fa-brands fa-linkedin"></i>.</a>
+                        
+                    </div>
+                    <a href="" class="btn btn2">Back to Home</a>
+                </div>
+                 <div class="contact-right">
+                    <form>
+                        <input type="text" 
+                        name="Name" placeholder="Your Name" required>
+                        <input type="email" 
+                        name="email" placeholder="Your Email" required>
+                        <textarea name="Message" id="" rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="submit">Submit</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>Copyright © All right Reserved</p>
+        </div>
+    </div>
+    <script>
+        var sidemenu = document.getElementById("sidemenu");
+        function openmenu(){
+            sidemenu.style.right = "0";
+        }
+        function closemenu(){
+            sidemenu.style.right = "-200px";
+        }
+    </script>
+</body>
+</html>
